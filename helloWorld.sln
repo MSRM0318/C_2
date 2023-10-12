@@ -1,0 +1,50 @@
+//Sumar dos números enteros Escribe un programa en C# que sume dos números enteros. El usuario debe ingresar dos números, y el programa debe mostrar la suma de esos dos números.
+Grupo de elecciones de respuesta
+
+Console.WriteLine("Calculadora de suma de dos números enteros")
+Console.Write ("Ingresa el primer núnero: ");
+int numerol = Convert. ToInt32(Console .ReadLine0());
+Console.Write("Ingresa el segundo número: ");
+int numero2 = Convert. ToInt32(Console ReadLine());
+int suma = numerol + numero:
+Console. WriteLine ("El resultado es: " + suma);
+
+//Resta de dos números enteros Escribe un programa en C# que reste dos números enteros. El usuario debe ingresar dos números, y el programa debe mostrar la resta de esos dos números. Grupo de elecciones de respuesta
+
+Console.WriteLine ("Calculadora de resta de dos números enteros");
+Console.Write ("Ingresa el primer núnero a restar: ");
+int numero1 = Convert. ToInt32(Console .ReadLine());
+Console.Write("Ingresa el segundo número a restar: ");
+int numero2 = Convert. ToInt32(Console .ReadLine());
+int resta = numero1 - numero2;
+Console. WriteLine ("El resultado es: " + resta);
+
+//Calcular el promedio de tres números Escribe un programa en C# que calcule el promedio de tres números enteros. El usuario debe ingresar los tres números, y el programa debe mostrar el promedio calculado. Grupo de elecciones de respuesta
+
+Console.WriteLine ("Calculadora de promedio de tres numeros enteros");
+Console.Write("Ingresa el primer número: ");
+int numerol = Convert. ToInt32(Console .ReadLine());
+Console. Write("Ingresa el segundo número: ");
+int numero2 = Convert. ToInt32(Console.ReadLine());
+Console.Write("Ingresa el tercer número: ");
+int numero3 = Convert. ToInt32(Console .ReadLine());
+int promedio = (numero1 + numero2 + numero3) / 3;
+Console.WriteLine("El promedio es "+ promedio);
+
+//Escribe un programa en C# que calcule el área de un triángulo. El usuario debe ingresar la longitud de la base y la altura del triángulo. Luego, el programa debe mostrar el área calculada.
+
+Console.WriteLine("Calculadora de área de un triángulo");
+Console.Write("Ingresa la longitud de la base: ");
+int baseTriangulo = Convert.ToInt32(Console.ReadLine());
+Console.Write("Ingresa la altura: ");
+int alturaTriangulo = Convert.ToInt32(Console.ReadLine());
+int areaTriangulo = (baseTriangulo * alturaTriangulo) / 2;
+Console.WriteLine("El área del triángulo es" + areaTriangulo);
+
+//Escribe un programa en C# que calcule el área de un cuadrado. El usuario debe ingresar la longitud de un lado del cuadrado. Luego, el programa debe mostrar el área calculada.
+
+Console.WriteLine("Calculadora de área de un cuadrado");
+Console.Write("Ingresa la longitud de un lado del cuadrado: ");
+int ladoCuadrado = Convert.ToInt32(Console.ReadLine());
+int areaCuadrado = ladoCuadrado * ladoCuadrado;
+Console.WriteLine(" El área del cuadrado es " + areaCuadrado);
